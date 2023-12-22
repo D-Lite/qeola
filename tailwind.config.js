@@ -9,6 +9,7 @@ const config = {
   theme: {
     extend: {
       backgroundImage: {
+        'backgroundGradient': "url('https://clickup.com/assets/home-test/text-bg/all-teams-love-clickup-desktop.svg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
             'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
