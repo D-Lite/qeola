@@ -32,3 +32,55 @@
         scrollbar-width: none; /* Firefox */
     }
 }
+
+.comp-bg {
+    background-image: linear-gradient(206deg, rgba(38, 171, 250, 0.8) -7.06%, rgba(118, 18, 250, 0.8) 52.5%);
+    clip-path: path("M-5.07227 3.54688L415.864 32.7688L415.864 328H-5.07227V3.54688Z");
+    display: block;
+    inset-block-end: 0px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 36px;
+    position: absolute;
+    text-rendering: optimizeSpeed;
+    z-index: 2;
+    width: 385px;
+}
+
+.comp-bg::before {
+    content: "";
+    display: block;
+    block-size: 6px;
+    color: rgb(41, 45, 52);
+    background-color: rgb(255, 255, 255);
+    inline-size: 393px;
+    line-height: 24px;
+    transform: matrix(0.997564, 0.0697565, -0.0697565, 0.997564, 0, 0);
+    z-index: 3;
+    width: 393px;
+    position: absolute;
+    box-sizing: border-box;
+    height: 6px;
+    inset-block-start: 15px;
+    inset-inline-end: -0px;
+}
+.comp-bg::after {
+    content: "";
+    backdrop-filter: blur(6px);
+    block-size: 283px;
+    box-sizing: border-box;
+    color: rgb(41, 45, 52);
+    display: block;
+    height: 283px;
+    inline-size: 424px;
+    inset-block-start: 21px;
+    inset-inline-end: -10px;
+    line-height: 24px;
+    position: absolute;
+    text-rendering: optimizeSpeed;
+    transform: matrix(0.997564, 0.0697565, -0.0697565, 0.997564, 0, 0);
+    width: 424px;
+    will-change: contents;
+    z-index: -1;
+}
