@@ -29,11 +29,19 @@ export default function HomeCollaboration() {
                     </p>
                 </div>
             </div>
-            <div className='relative w-2/5 bg-cover p-7  h-[inherit] rounded-[15px]'
+            <div className='relative  p-7 h-[inherit] rounded-[15px]'
                  style={{
-                     backgroundSize: "cover",
+                     backgroundSize: "auto",
                      backgroundAttachment: "fixed",
-                     backgroundImage: `url('https://clickup.com/assets/home-test/text-bg/all-teams-love-clickup-desktop.svg')`,
+                     backgroundImage: 'linear-gradient(247deg, rgb(250, 18, 227) 17.39%, rgb(118, 18, 250) 64.22%, rgb(18, 208, 250) 97.73%)',
+                     backgroundClip: "border-box",
+                     backgroundRepeat: "repeat",
+                     blockSize: "auto",
+                     boxShadow: "rgba(67, 46, 134, 0.1) 0px 3px 20px 0px",
+                     display: "block",
+                     inlineSize: "840px",
+                     overflow: "hidden",
+                     height: '600px',
                  }}
             >
                 <img src={CollaborateImage} className='absolute min-w-[860px] overflow-clip'/>
