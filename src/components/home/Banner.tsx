@@ -1,3 +1,12 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 export default function HomeBanner() {
     return (
         <div className="flex flex-col min-h-[70vh] items-center justify-center gap-[30px]">
@@ -18,7 +27,6 @@ export default function HomeBanner() {
             <button className='box-border font-axiforma cursor-default text-white bg-gradient-to-r from-pink-500 to-violet-500 w-[420px] rounded-[12px] h-[65px] text-[24px] font-[700]'>
                 Get Started. It's FREE <span aria-hidden="true">&rarr;</span>
             </button>
-
         </div>
     )
 }

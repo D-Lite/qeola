@@ -33,6 +33,37 @@
     }
 }
 
+.header-product-btn {
+    box-sizing: border-box;
+    color: rgb(41, 45, 52);
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 44px;
+    margin-block-start: 16px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 12px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-product-btn::before {
+    background-color: rgb(123, 104, 238);
+    border-radius: 15px;
+    bottom: 0;
+    color: rgb(41, 45, 52);
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    visibility: visible;
+    position: absolute;
+    opacity: 0.1;
+}
+
 .comp-bg {
     background-image: linear-gradient(206deg, rgba(38, 171, 250, 0.8) -7.06%, rgba(118, 18, 250, 0.8) 52.5%);
     clip-path: path("M-5.07227 3.54688L415.864 32.7688L415.864 328H-5.07227V3.54688Z");
