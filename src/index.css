@@ -35,22 +35,35 @@
 
 .header-product-btn {
     box-sizing: border-box;
-    color: rgb(41, 45, 52);
-    cursor: pointer;
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    height: 44px;
-    margin-block-start: 16px;
-    padding-bottom: 12px;
+    display :block;
+    height :44px;
+    padding-bottom: 11.008px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 12px;
-    position: relative;
+    position :relative;
+    visibility :visible;
+    width :732px;
     z-index: 10;
+    font-size :14px;
+    font-weight: 700;
+    line-height :21px;
+    text-align :center;
+    text-decoration-color: rgb(41, 45, 52);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    color: rgb(41, 45, 52);
+    cursor: pointer;
+    text-rendering: optimizespeed;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-block-start: 16px;
+    pointer-events :auto;
 }
 
-.header-product-btn::before {
+.header-product-btn:before {
     background-color: rgb(123, 104, 238);
     border-radius: 15px;
     bottom: 0;
@@ -62,6 +75,37 @@
     visibility: visible;
     position: absolute;
     opacity: 0.1;
+    height :44px;
+    width :732px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-align :center;
+    text-decoration-color: rgb(41, 45, 52);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    cursor: pointer;
+    text-rendering: optimizespeed;
+    margin-block-start: 16px;
+    pointer-events :auto;
+}
+
+.header-product-btn  {
+    background-color: #F2F0FD;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 15px;
+    color: rgb(41, 45, 52);
+    font-size: 14px;
+    font-weight: 700;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    /*opacity: 0.1;*/
+    height: 44px;
+    width: 700px ;
 }
 
 .comp-bg {
