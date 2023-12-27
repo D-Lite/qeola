@@ -436,3 +436,54 @@ content: url("https://clickup.com/assets/home-test/curve.png");
     width: 72px;
 }
 
+.footer-li {
+    box-sizing: border-box;
+    color: rgb(41, 45, 52);
+    line-height: 24px;
+    list-style-type: none;
+    max-inline-size: 236px;
+    min-block-size: 550px;
+    padding-block-start: 40px;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+    position: relative;
+    text-align: left;
+    width: 236px;
+}
+
+.footer-li-div {
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    letter-spacing: 0.18px;
+    line-height: 18px;
+    list-style-type: none;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer-li-ul {
+    display: block;
+    text-align: left;
+}
+
+.footer-li-ul-li {
+    color: rgb(41, 45, 52);
+    display: list-item;
+    line-height: 24px;
+    margin-block-start: 20px;
+    text-align: left;
+}
+
+.footer-li-ul-li-a {
+    font-size: 14px;
+    font-weight: 400;
+    height: auto;
+    width: auto;
+    line-height: 21px;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    color: white;
+}
