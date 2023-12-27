@@ -284,20 +284,20 @@ export default function HomeTeams() {
                 </div>
             </div>
 
-            <div className="wrapper box-border my-[100px] block relative" id="image" style={{
-                // backgroundPosition: "-458px center",
-                // // backgroundImage: "url(https://clickup.com/assets/home-test/cta-bg.png)",
-                // backgroundSize: "auto 600px",
-                // backgroundRepeat: "repeat-x",
-                // display: "block",
-                // height: "1141px",
+            <div className="wrapper box-border my-[100px] block w-[100vw] relative" id="image" style={{
+                backgroundPosition: "-458px center",
+                backgroundImage: "url(https://clickup.com/assets/home-test/cta-bg.png)",
+                backgroundSize: "auto 600px",
+                backgroundRepeat: "repeat-x",
+                display: "block",
+                height: "1141px",
                 // inlineSize: "full",
-                // // width: "full",
-                // // backgroundPositionX: "-461px",
-                // backgroundPositionY: "50%",
+                width: "full",
+                backgroundPositionX: "-461px",
+                backgroundPositionY: "50%",
                 // backgroundPositionX:  "-min(10vw, 10vh) 0px",
-                // boxSizing: "border-box",
-                // overflow: "auto"
+                boxSizing: "border-box",
+                overflow: "clip"
             }}>
                 <div className=" flex items-center justify-center flex-col h-[890px] w-full "
                      style={{willChange: 'transform', marginBlockEnd: "150px", marginBlockStart: "100px"}}>
