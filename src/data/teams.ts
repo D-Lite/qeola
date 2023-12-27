@@ -1,8 +1,9 @@
-const teamsData = [
+export const teamsData = [
     {
         id: 1,
         title: 'Deliver projects on time, every time',
         subtitle: 'Get teams running more efficiently with a complete project management solution.',
+        headshot:'https://clickup.com/assets/home-test/convene-headshot.png',
         list: [
             'Reduce delivery time with custom templates',
             'Track effort to impact with OKR planning',
@@ -36,6 +37,7 @@ const teamsData = [
         id: 2,
         title: 'The complete marketing solution',
         subtitle: 'The all-in-one work hub for modern marketing teams, completely free.',
+        headshot:'https://clickup.com/assets/home-test/finastra-headshot.png',
         list: [
             'Build visual plans that keep teams on track',
             'Fast track delivery with templates and calendars',
@@ -69,6 +71,7 @@ const teamsData = [
         id: 3,
         title: 'Plan, build, & ship, all in one place',
         subtitle: 'The only all-in-one product management toolkit, completely free.',
+        headshot: 'https://clickup.com/assets/home-test/lulu-headshot.png',
         list: [
             'Get flexible agile workflows for fast moving teams',
             'Reduce development time with visual roadmaps',
@@ -102,6 +105,7 @@ const teamsData = [
         id: 4,
         title: 'More building, less busy work',
         subtitle: 'Your end-to-end product development platform, completely free.',
+        headshot: 'https://clickup.com/assets/home-test/pressed-headshot.png',
         list: [
             'Get flexible agile workflows for fast moving teams',
             'Track dependencies and resources across squads',
@@ -135,6 +139,7 @@ const teamsData = [
         id: 5,
         title: 'The complete agency solution',
         subtitle: "Deliver higher quality client work that's more profitable, faster.",
+        headshot: 'https://clickup.com/assets/home-test/hawkemedia-headshot.png',
         list: [
             'Visualize projects, progress, and teamwork',
             'Speed up collaboration and feedback cycles',
