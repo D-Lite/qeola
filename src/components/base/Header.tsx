@@ -9,7 +9,7 @@ import {
     SquaresPlusIcon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Logo from '../../assets/logo/clickup logo.svg'
 
 const products = [
@@ -19,10 +19,6 @@ const products = [
     { name: 'Whiteboards', description: 'Bring team ideas to life with visual collaboration', href: '#', icon: SquaresPlusIcon },
     { name: 'Dashboards', description: 'Visualize progress with real-time reporting', href: '#', icon: ArrowPathIcon },
     { name: 'Chat', description: 'Collaborate with your team in real-time', href: '#', icon: ArrowPathIcon },
-]
-const callsToAction = [
-    { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-    { name: 'Contact sales', href: '#', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {
@@ -533,7 +529,7 @@ export default function Header() {
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src={Logo}
                                 alt=""
                             />
                         </a>
@@ -560,7 +556,57 @@ export default function Header() {
                                                 />
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
-                                                {[...products, ...callsToAction].map((item) => (
+                                                {products.map((item) => (
+                                                    <Disclosure.Button
+                                                        key={item.name}
+                                                        as="a"
+                                                        href={item.href}
+                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                                    >
+                                                        {item.name}
+                                                    </Disclosure.Button>
+                                                ))}
+                                            </Disclosure.Panel>
+                                        </>
+                                    )}
+                                </Disclosure>
+                                <Disclosure as="div" className="-mx-3">
+                                    {({ open }) => (
+                                        <>
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                                Solutions
+                                                <ChevronDownIcon
+                                                    className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                                                    aria-hidden="true"
+                                                />
+                                            </Disclosure.Button>
+                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                                {products.map((item) => (
+                                                    <Disclosure.Button
+                                                        key={item.name}
+                                                        as="a"
+                                                        href={item.href}
+                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                                    >
+                                                        {item.name}
+                                                    </Disclosure.Button>
+                                                ))}
+                                            </Disclosure.Panel>
+                                        </>
+                                    )}
+                                </Disclosure>
+                                <Disclosure as="div" className="-mx-3">
+                                    {({ open }) => (
+                                        <>
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                                Learn
+                                                <ChevronDownIcon
+                                                    className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                                                    aria-hidden="true"
+                                                />
+                                            </Disclosure.Button>
+                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                                {products.map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
                                                         as="a"
@@ -578,29 +624,29 @@ export default function Header() {
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Features
+                                    Pricing
                                 </a>
                                 <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Marketplace
-                                </a>
-                                <a
-                                    href="#"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
-                                    Company
+                                    Enterprise
                                 </a>
                             </div>
-                            <div className="py-6">
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
+
+                            <div className="flex pt-5 flex-col flex-1 font-extrabold gap-y-8">
+                                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                                    Contact Sales
+                                </a>
+                                <a href="#" className="text-sm [700] leading-6  w-full h-[45px] bg-[#7b68ee] inline-flex rounded-[10px] items-center justify-center text-white shadow-md">
+                                    Sign Up
+                                </a>
+                                <a href="#" className="text-[14px] [700] leading-6  w-full h-[45px] bg[#e9ebf0] text-[#292d34] inline-flex rounded-[10px] items-center justify-center shadow-md">
                                     Log in
                                 </a>
                             </div>
+
+
                         </div>
                     </div>
                 </Dialog.Panel>

@@ -45,7 +45,7 @@ export default function BannerSecondSection() {
                             </picture>
                         </div>
                         <div className="secondarybanner-subimg-div">
-                            <picture className=""><img src={filteredBannerData.small}
+                            <picture className=""><img src={filteredBannerData.smallnpm }
                                                        srcSet="" height="393" width="658"
                                                        alt="Projects" loading="eager"
                                                        decoding="async"
