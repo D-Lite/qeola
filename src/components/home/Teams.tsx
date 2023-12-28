@@ -677,8 +677,14 @@ export default function HomeTeams() {
 
             <div>
                 <div className='my-10 flex items-center justify-center flex-col'>
-                    <p className=' text-[70px] font-[900] leading-[90px] w-[900px] text-black text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
-                        All teams love ClickUp
+                    {/*<p className=' text-[70px] font-[900] leading-[90px] w-[900px] text-black text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>*/}
+                    <p style={{
+                        backgroundColor: 'rgb(36, 34, 62)',
+                        backgroundPosition: '-50px -90px',
+                        backgroundSize: 'cover',
+                        color: 'rgb(36, 34, 62)',
+                        WebkitTextFillColor: 'rgba(0, 0, 0, 0)',
+                    }} className='block font-[900] text-[70px] leading-[90px] w-[900px] bg-cover box-border text-black text-center bg-clip-text text-transparent bg-[url(https://clickup.com/assets/home-test/text-bg/one-app-to-replace-them-all-desktop.svg)] bg-no-repeat'>    All teams love ClickUp
                     </p>
                     <div>
                         <p className="text-[23px] font-axiforma font-normal tracking-wider leading-[35px] text-center text-black">

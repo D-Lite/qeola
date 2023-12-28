@@ -10,11 +10,18 @@ import 'swiper/css/scrollbar';
 import BannerSecondSection from "./BannerTwo.tsx";
 export default function HomeBanner() {
     return (
-        <div className="flex flex-col min-h-[70vh] items-center justify-center gap-[30px]">
+        <div className="flex flex-col min-h-[70vh] items-center justify-center gap-[30px] mt-[60px]">
             <p className='bg-black text-white text-[12px] p-0 h-[25px] w-[220px] flex items-center justify-center rounded-[20px]'>
                 Discover the all-new ClickUp 3.0 <span aria-hidden="true">&rarr;</span>
             </p>
-            <p className=' text-[70px] font-[900] leading-[90px] w-[700px] text-black text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
+            <p style={{
+                backgroundColor: 'rgb(36, 34, 62)',
+                backgroundPosition: '-50px -90px',
+                backgroundSize: 'cover',
+                color: 'rgb(36, 34, 62)',
+                marginBottom: '18px',
+                WebkitTextFillColor: 'rgba(0, 0, 0, 0)',
+            }} className='block font-[900] text-[70px] leading-[90px] h-[170px] w-[700px] bg-cover box-border text-black text-center bg-clip-text text-transparent bg-[url(https://clickup.com/assets/home-test/text-bg/one-app-to-replace-them-all-desktop.svg)] bg-no-repeat'>
                 One app to <br/> replace them all
             </p>
             <div>

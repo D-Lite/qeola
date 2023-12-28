@@ -9,8 +9,15 @@ import Feat7 from '../../assets/images/feat7.png'
 export default function HomeFeatures() {
     return (
         <div className="flex flex-col min-h-[70vh] items-center  gap-[30px]">
-            <p className=' text-[70px] font-[900] leading-[90px] w-[700px] text-black text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
-                Everything your <br/> team is looking for
+            <p style={{
+                backgroundColor: 'rgb(36, 34, 62)',
+                backgroundPosition: '-50px -90px',
+                backgroundSize: 'cover',
+                color: 'rgb(36, 34, 62)',
+                marginBottom: '18px',
+                WebkitTextFillColor: 'rgba(0, 0, 0, 0)',
+            }} className='block font-[900] text-[70px] leading-[90px] h-[200px] w-[700px] bg-cover box-border text-black text-center bg-clip-text text-transparent bg-[url(https://clickup.com/assets/home-test/text-bg/one-app-to-replace-them-all-desktop.svg)] bg-no-repeat'>
+            Everything your <br/> team is looking for
             </p>
             <div>
                 <p className="text-[23px] font-axiforma font-normal tracking-wider leading-[35px] text-center text-black">
