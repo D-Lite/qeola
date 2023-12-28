@@ -38,9 +38,9 @@ export default function HomeTeams() {
     }, []);
 
     return (
-        <div className="flex flex-col min-h-[70vh] items-center  gap-[30px]">
-            <div className='flex items-center justify-center relative h-[100px] flex-col'>
-                <div className='flex items-center justify-center h-[32px] mb-[30px]'>
+        <div className="flex flex-col min-h-[70vh] min-w-[100vw] items-center gap-[30px]">
+            <div className='flex items-center justify-center relative h-[100px] min-w-[100vw] flex-col'>
+                <div className='flex items-center justify-center h-[32px] mb-[30px] w-full teams-arc'>
                     <div className="box-border block text-[16px] tracking-wider font-[700] text-center text-[#24223e]">
                         Over 2+ million teams rely on ClickUp to collaborate and get work done.
                     </div>
