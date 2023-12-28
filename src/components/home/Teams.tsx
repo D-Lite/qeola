@@ -6,13 +6,28 @@ import {teamsData} from "../../data/teams.ts";
 
 gsap.registerPlugin(ScrollTrigger);
 
+interface TeamData {
+    id: number;
+    title: string;
+    subtitle: string;
+    headshot: string;
+    list: string[];
+    comment: string[];
+    commentorCompany: string;
+    right: {
+        icon: string;
+        word: string;
+    }[];
+}
+
 export default function HomeTeams() {
     const [selectedTeamButton, setSelectedTeamButton] = useState(3); // Set the default to 3
-    const [filteredTeamData, setFilteredTeamData] = useState(null);
+    const [filteredTeamData, setFilteredTeamData] = useState<TeamData>();
 
 
     useEffect(() => {
-        const filtered = teamsData.find(item => item.id === selectedTeamButton);
+        // @ts-ignore
+        const filtered: TeamData = teamsData.find(item => item.id === selectedTeamButton);
         setFilteredTeamData(filtered);
     }, [selectedTeamButton]);
     // const containerRef = useRef<HTMLDivElement>(null);

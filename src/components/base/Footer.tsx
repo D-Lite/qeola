@@ -155,7 +155,7 @@ export default function Footer() {
                     </li>
                     <li className="footer-li">
                         <div className="footer-li-div">Resources</div>
-                        <ul className="CuBottomNavigation_columnList__D7vJc">
+                        <ul className="">
                             <li className="footer-li-ul-li"><a className="footer-li-ul-li-a"
                                                                                         data-segment-button-clicked="Help Docs"
                                                                                         href="https://docs.clickup.com/en/?_ga=2.89767963.1623978924.1629059115-1920119498.1590354138">Help
@@ -204,11 +204,11 @@ export default function Footer() {
                     </li>
                     <li className="footer-li">
                         <div className="footer-li-div"><a
-                                                                                  className="CuLink_link__x0qqd CuBottomNavigation_columnTitleLink__YGIf9"
+                                                                                  className=""
                                                                                   rel="" target=""
                                                                                   href="https://clickup.com/features">Features</a>
                         </div>
-                        <ul className="CuBottomNavigation_columnList__D7vJc">
+                        <ul className="">
                             <li className="footer-li-ul-li"><a className="footer-li-ul-li-a"
                                                                                         data-segment-button-clicked="Gantt Chart"
                                                                                         href="https://clickup.com/features/gantt-chart-view">Gantt
@@ -257,11 +257,11 @@ export default function Footer() {
                     </li>
                     <li className="footer-li">
                         <div className="footer-li-div"><a
-                                                                                  className="CuLink_link__x0qqd CuBottomNavigation_columnTitleLink__YGIf9"
+                                                                                  className=""
                                                                                   rel="" target=""
                                                                                   href="https://clickup.com/compare">Compare</a>
                         </div>
-                        <ul className="CuBottomNavigation_columnList__D7vJc">
+                        <ul className="">
                             <li className="footer-li-ul-li"><a className="footer-li-ul-li-a"
                                                                                         data-segment-button-clicked="vs Monday"
                                                                                         href="https://clickup.com/compare/monday-alternative">vs
@@ -346,7 +346,7 @@ export default function Footer() {
                                     alt="Apple App Store" loading="lazy" decoding="async"
                                     sizes="(max-width: 900px) 100vw, 50vw" /></picture>
                             </div>
-                        </a><a  className="CuLink_link__x0qqd" rel="noopener noreferrer"
+                        </a><a  className="" rel="noopener noreferrer"
                                target="_blank" data-segment-button-clicked="Google Play Store"
                                href="https://clickup.sng.link/Dr733/i2p2?_smtype=3&amp;utm_source=(none)&amp;utm_term=&amp;utm_medium=(direct)&amp;utm_campaign=&amp;utm_content=&amp;utm_stamp=tue, 26 dec 2023 20:38:48 gmt">
                             <div className=""
@@ -361,7 +361,7 @@ export default function Footer() {
                 </ul>
             </div>
 
-            <footer className="border-t border-gray-200 py-10 max-container px-[30px]" id="footer">
+            <footer className="border-t border-gray-200 mt-12 py-4 max-container px-[30px]" id="footer">
                 <div className="flex-row justify-between align-center flex">
                     <div className="box-border block leading-[24px]"><a
                                                              className="bg-[#7b68ee]"
@@ -391,51 +391,49 @@ export default function Footer() {
                             </defs>
                         </svg>
                     </a>
-                        <div className="flex gap-[8px] leading-[18px] text-[12px] "><span>© 2023 ClickUp</span><a
+                        <div className="flex gap-[8px] leading-[18px] text-[12px] justify-between "><span>© 2023 ClickUp</span><a
                              className="text-white cursor-pointer text-[12px] w-[60px]" rel="" target=""
                             href="https://clickup.com/terms/security-policy">Security</a><a
-                                                                                            className="text-white cursor-pointer text-[12px] w-[60px]"
+                                                                                            className="text-white cursor-pointer text-[12px] w-[100px]"
                                                                                             rel="" target=""
 
-                                                                                            href="https://clickup.com/terms/privacy">Your
-                            Privacy</a><a  className="text-white cursor-pointer text-[12px] w-[60px]" rel="" target=""
+                                                                                            href="https://clickup.com/terms/privacy">Your  Privacy</a><a  className="text-white cursor-pointer text-[12px] w-[100px]" rel="" target=""
                                           data-segment-button-clicked="Terms" href="https://clickup.com/terms">Terms</a>
                         </div>
                     </div>
                     <div className="flex-row flex gap-[16px] align-center"><a
-                                                         className="CuLink_link__x0qqd CuLink_underline__f9pW8 CuFooter_iconLinkDarkMode__aeN_u"
+                                                         className=""
                                                          rel="noopener noreferrer" target="_blank"
-                                                         data-segment-button-clicked="LinkedIn"
                                                          href="https://www.linkedin.com/company/12949663">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--color-icon, #000)"
-                             className="CuFooter_icon__aKxbZ" aria-label="Follow ClickUp on LinkedIn">
+                             className="" aria-label="Follow ClickUp on LinkedIn">
                             <path
                                 d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54A3.6 3.6 0 0 1 16.17 9c2.39 0 4.18 1.56 4.18 4.89v6.21z"></path>
                         </svg>
                     </a><a
-                           className="CuLink_link__x0qqd CuLink_underline__f9pW8 CuFooter_iconLinkDarkMode__aeN_u"
-                           rel="noopener noreferrer" target="_blank" data-segment-button-clicked="Facebook"
+                           className=""
+                           rel="noopener noreferrer" target="_blank"
                            href="https://www.facebook.com/clickupprojectmanagement/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--color-icon, #000)"
-                             className="CuFooter_icon__aKxbZ" aria-label="Follow ClickUp on Facebook">
+                             className="" aria-label="Follow ClickUp on Facebook">
                             <path
                                 d="M22.5 0c.83 0 1.5.67 1.5 1.5v21c0 .83-.67 1.5-1.5 1.5h-6v-9h3l.75-3.75H16.5v-1.5c0-1.5.75-2.25 2.25-2.25h1.5V3.75h-3c-2.76 0-4.5 2.16-4.5 5.25v2.25h-3V15h3v9H1.5A1.5 1.5 0 0 1 0 22.5v-21C0 .67.67 0 1.5 0h21z"></path>
                         </svg>
                     </a><a
-                           className="CuLink_link__x0qqd CuLink_underline__f9pW8 CuFooter_iconLinkDarkMode__aeN_u"
+                           className=""
                            rel="noopener noreferrer" target="_blank" data-segment-button-clicked="Instagram"
                            href="https://www.instagram.com/clickup/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--color-icon, #000)"
-                             className="CuFooter_icon__aKxbZ" aria-label="Follow ClickUp on Instagram">
+                             className="" aria-label="Follow ClickUp on Instagram">
                             <path
                                 d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"></path>
                         </svg>
                     </a><a
-                           className="CuLink_link__x0qqd CuLink_underline__f9pW8 CuFooter_iconLinkDarkMode__aeN_u"
+                           className=""
                            rel="noopener noreferrer" target="_blank" data-segment-button-clicked="Twitter"
                            href="https://twitter.com/clickup">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--color-icon, #000)"
-                             className="CuFooter_icon__aKxbZ" aria-label="Follow ClickUp on Twitter">
+                             className="" aria-label="Follow ClickUp on Twitter">
                             <path
                                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
                         </svg>

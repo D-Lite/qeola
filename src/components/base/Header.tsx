@@ -21,7 +21,7 @@ const products = [
     { name: 'Chat', description: 'Collaborate with your team in real-time', href: '#', icon: ArrowPathIcon },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
